@@ -1,8 +1,8 @@
 Package.describe({
-  name: "themeteorchef:bert",
+  name: "w4pnemsak:bert",
   version: "2.2.2",
-  summary: "A client side, multi-style alerts system for Meteor.",
-  git: "http://github.com/themeteorchef/bert",
+  summary: "A fork of client side, multi-style alerts system for Meteor by themeteorchef.",
+  git: "http://github.com/w4pnemsak/bert",
   documentation: "README.md",
 });
 
@@ -32,6 +32,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use(["tinytest", "session", "jquery"]);
-  api.use("themeteorchef:bert");
+  api.use("w4pnemsak:bert");
   api.addFiles("tests/client.js", "client");
 });
