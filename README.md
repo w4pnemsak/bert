@@ -18,7 +18,7 @@ Bert is a client side, multi-style alerts system for Meteor.
 To get Bert into your app, just run the following command from within your project's directory:
 
 ```
-meteor add @w4pnemsak:bert
+meteor add w4pnemsak:bert
 ```
 
 #### Upgrade Warning
@@ -163,10 +163,10 @@ The value of `type` simply gets added to Bert as a CSS class, so we can tweak th
 Bert comes with a suite of TinyTest-based tests to ensure that all of your alerts make it to the client as intended. To run the tests, open up your terminal and type:
 
 ```
-meteor test-packages @w4pnemsak:bert
+meteor test-packages w4pnemsak:bert
 ```
 
-Pop open your browser http://localhost:3000. Verify tests are passing. **Note**: if your app is already running on `http://localhost:3000`, you can run tests separately by running `meteor test-packages @w4pnemsak:bert --port 3001`.
+Pop open your browser http://localhost:3000. Verify tests are passing. **Note**: if your app is already running on `http://localhost:3000`, you can run tests separately by running `meteor test-packages w4pnemsak:bert --port 3001`.
 
 ![](https://tmc-post-content.s3.amazonaws.com/Screen-Shot-2015-10-14-12-00-57.png)
 
